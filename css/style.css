@@ -1,0 +1,174 @@
+
+body{
+	font-family: 'Acme', sans-serif;
+	background-color: #FBFBFBFF;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #BABDB6FF !important;
+}
+
+.bg-blac{
+	background-color: black;
+}
+
+nav > .navbar-brand{
+	font-size: 1.5rem !important;
+}
+
+
+li > .nav-link{
+	color: white !important;
+
+}
+
+header .head-img{
+	height: 450px;
+	background-image: url('../img/hous.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header .write-up{
+	padding-top: 9rem;
+	color: white;
+}
+
+header .write-up .link{
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+}
+
+header .btn-info{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.1rem;
+}
+
+button:focus{
+	outline: none;
+	box-shadow: none !important;
+}
+
+.txt{
+	width: 800px;
+	max-width: 100%;
+	font-size: 1.2rem;
+}
+
+main .content{
+	color: black;
+	margin-bottom: 1rem;
+}
+
+main .latest > .conti{
+	height: 300px;
+	padding:10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+main .header{
+	padding-top: 20px;
+}
+
+main .latest{
+	padding-top: 1.3rem;
+}
+
+main .latest > .conti > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+
+main .latest > .conti > img:hover{
+	cursor: pointer;
+	box-shadow: none;
+	
+}
+
+main .latest > .conti > .img-4{
+	border-radius: 2%;
+	box-shadow: 2px 2px 2px 2px #233;
+}
+
+main .latest > .conti > .img-4:active{
+	border-radius: 2%;
+	box-shadow: 2px 2px 2px 0px #233;
+}
+
+main .latest > .conti > .img-6{
+	box-shadow: 2px 2px 1px 2px #233;
+}
+
+main .latest > .conti > .img-6:active{
+	box-shadow: 2px 2px 2px 2px #233;
+}
+
+li > .nav-link:hover{
+	color: #BABDB6FF !important;
+
+}
+
+.nav-item{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+nav .fa{
+	font-size: 1.2rem !important;
+}
+
+
+footer{
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+footer .foot-content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer p{
+	max-width: 100%;
+	width: 100% ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer .social-icons > i{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+footer p a:hover{
+	color: #BABDB6FF;
+}
+
+
+
+
+@media screen and (min-width: 425px){
+	li > .nav-link{
+	font-size: 1.1rem;
+
+}
+}
+
+@media screen and (min-width:320px) and (max-width:465px){
+	.navbar-nav{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}

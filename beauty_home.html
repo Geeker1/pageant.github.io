@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pageant</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="loading-btn/loading.css">
+    <link rel="stylesheet" type="text/css" href="loading-btn/loading-btn.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark py-3 bg-blac">
+	<div class="container">
+      <a class="navbar-brand" href="#">Your Logo Here</a>
+        <span data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation" class="d-sm-none fa fa-align-justify text-white"></span>
+
+      <div class="collapse navbar-collapse" id="navbarsExample05">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vote</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contestants</a>
+          </li>
+
+        </ul>
+      </div>
+  </div>
+    </nav>
+
+    <header>
+    	<div class="head-img">
+    		<div class="container">
+    			<div class="row justify-content-center px-5 text-center write-up">
+    				<div class="txt">
+    				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim ullamcorper eros in congue. Sed vitae cursus metus. Donec imperdiet dolor non faucibus venenatis.</div>
+    				<p class="link">
+    				<button class="btn btn-info register ld-ext-right">
+    					Register
+    				</button></p>
+    			</div>
+    		</div>
+    	</div>
+    </header>
+
+    <main>
+    	<div class="container content text-center pt-4">
+    		<h4 class="header">Latest Stories</h4>
+    		<div class="row latest">
+    			<div class="col-md-4 conti">
+    				<img class="img-4" src="img/house7.jpg">
+    			</div>
+    			<div class="col-md-4 conti">
+    				<img class="img-4" src="img/house3.jpg">
+    			</div>
+    			<div class="col-md-4 conti">
+    				<img class="img-4" src="img/house4.jpg">
+    			</div>
+    			<div class="col-md-6 conti">
+    				<img class="img-6" src="img/house5.jpg">
+    			</div>
+    			<div class="col-md-6 conti">
+    				<img class="img-6" src="img/house8.jpg">
+    			</div>
+    		</div>
+    	</div>
+    </main>
+
+
+</style>
+    <footer class="bg-blac text-white">
+    	<div class="container">
+    		<div class="row foot-content justify-content-center text-center">
+
+                <p class="mt-4" style="font-size:2rem;">Your Logo Here</p>
+
+    			<p><a href="#">Gallery</a></p>
+    			<p><a href="#">Contact Us</a></p>
+    			<p><a href="#">Work With Us</a></p>
+    			<p><a href="#">Sponsors</a></p>
+    			
+    		</div>
+
+    		<div class="flex-row social-icons mb-4 text-center">
+    			<i class="fab fa-facebook"></i>
+    			<i class="fab fa-instagram"></i>
+    			<i class="fab fa-github"></i>
+    			<i class="fab fa-linkedin"></i>
+    		</div>
+    		<div class="w-100 text-center">
+    				<p>All Rights Reserved.<span class="pl-2">(c) 2018-2019</span></p>
+    		</div>
+    		<div class="w-100 text-center">
+    				<p>Powered by <a href="#" class="text-info">Froxine Tech</a></p>
+    		</div>
+    	</div>
+    </footer>
+    <script type="text/javascript" src="../dist/js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('nav > div > span').on('click',function(){
+    			$('nav > div > span').toggleClass("fa-align-justify fa-times");
+    		})
+
+    		$('.register').on('click',function(){
+    			$('.register').addClass('running');
+    			$('.register').html('Registering <div class="ld ld-ring ld-spin"></div>')
+    		})
+    	})
+    </script>
+</body>
+</html>
